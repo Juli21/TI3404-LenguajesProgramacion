@@ -1,0 +1,13 @@
+El MAKEFILE tiene unos pasos muy sencillos.
+En la línea de comandos de Linux, se escribe algo como:
+	gcc msn.c
+Ésto, para compilar el código del programa. Y luego, para formar el ejecutable:
+
+	gcc msn.c -o msn.exe
+
+Y tiene que ser así específicamente, ya que:
+1) gcc es Case Sensitive
+2) Si se agrega un -c a la par de gcc, crearía un código objeto.
+3) Entre otras opcopnes que crearían Librerías, o para optimizar el código, o sea, que corra más rápido.
+
+Para correr este ejecutable, siga las instrucciones en el Manual de Usuario.
